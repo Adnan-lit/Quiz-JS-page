@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Worker Example - Main</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <section class="quiz">
+                <div class="heading">
+                    <p class="title">freeMCQ</p>
+                    <p class="subtitle">Quiz to test your knowledge!</p>
+                </div>
+
+                <div class="result hide">
+                    <p>You scored 5/5!</p>
+                    <p class="reload">
+                        <button onclick="refreshPage()">Try Again?</button>
+                    </p>
+                </div>
+
+                <form class="quiz-form">
+                    <div class="question">
+                        <p>1. What is the most basic element of a program?</p>
+                        <div class="option">
+                            <input type="radio" name="q1" value="A" checked>
+                            <label for="">Function</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" value="B" >
+                            <label for="">Loop</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" value="C" >
+                            <label for="">Variable</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q1" value="D" >
+                            <label for="">Comment</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>2. What is the purpose of using a compiler in a programming language?</p>
+                        <div class="option">
+                            <input type="radio" name="q2" value="A" checked>
+                            <label for="">To translate code into machine language</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" value="B" >
+                            <label for="">To debug code</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" value="C" >
+                            <label for="">To make the code faster</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q2" value="D" >
+                            <label for="">To make the code more readable</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>3. Which of the following is NOT a data type in most programming languages?</p>
+                        <div class="option">
+                            <input type="radio" name="q3" value="A" checked>
+                            <label for="">Integer</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" value="B" >
+                            <label for="">Float</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" value="C" >
+                            <label for="">Boolean</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q3" value="D" >
+                            <label for="">Charms</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>4. What is the correct syntax for declaring a variable in C programming language?</p>
+                        <div class="option">
+                            <input type="radio" name="q4" value="A" checked>
+                            <label for="">Int x;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q4" value="B" >
+                            <label for="">Variable x;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q4" value="C" >
+                            <label for="">x as int;</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q4" value="D" >
+                            <label for="">Declare x int;</label>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <p>5. Which of the following is not a control structure in programming?</p>
+                        <div class="option">
+                            <input type="radio" name="q5" value="A" checked>
+                            <label for="">If statement</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q5" value="B" >
+                            <label for="">Loop</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q5" value="C" >
+                            <label for="">Switch case</label>
+                        </div>
+                        <div class="option">
+                            <input type="radio" name="q5" value="D" >
+                            <label for="">String</label>
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+        <script src="./script.js"></script>
+    </body>
+</html>
